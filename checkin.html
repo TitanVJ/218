@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Check In</title>
+    
+    <link rel="stylesheet" type="text/css" href="./style/style.css" />
+    <script src="./js/script.js" defer></script>
+    <script src="./js/jquery.min.js" defer></script>
+</head>
+<body>
+    <div id="wrapper">
+        <form>
+            <label>Check-In ID:</label><br>
+            <input type="text" placeholder="cmpt420-Kappa" id="key" required><br>
+            
+            <label>Name:</label><br>
+            <input type="text" placeholder="John Smith" id="name" required><br>
+            
+            <label>User ID:</label><br>
+            <input type="text" placeholder="301******" id="userID" required><br>
+
+            <button type="button" onclick="checkIn()">Check-In</button>
+        </form>      
+    </div>
+</body>
+</html>
